@@ -29,13 +29,13 @@ To simulate a real-world e-commerce data processing scenario by building a scala
 ##  Architecture
 
 [ Raw Data ] --> [ GCS Bucket ]
-↓
+-->
 [ Dataproc Cluster (PySpark) ]
-↓
+-->
 [ Cleaned & Enriched Data in GCS ]
-↓
+-->
 [ Analytical Views Layer ]
-↓
+-->
 [ Visualization in Data Studio ]
 
 
